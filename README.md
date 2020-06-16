@@ -1,3 +1,12 @@
+## Run app
+
+`docker build -t client . && docker run -it --rm --volume=${PWD}:/app -p 3000:3000 --name client client`
+
+or 
+
+`make run`
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
